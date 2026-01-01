@@ -1,1 +1,1 @@
-hi
+someone teach me dsa pls pls
