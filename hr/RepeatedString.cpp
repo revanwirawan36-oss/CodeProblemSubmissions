@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string> //h
 using namespace std;
 long long berapaA(string s, long long n){
     if(s=="a") return n;
