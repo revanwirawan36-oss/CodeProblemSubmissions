@@ -14,3 +14,4 @@ if __name__=='__main__':
     b=input()
     
     print(beautiful_binary_string(n,b))
+#test
