@@ -6,7 +6,7 @@ def army_game(n,m):
     
     fullEmpat= (n-sisaN)*(m-sisaM)
     productFullEmpat=fullEmpat//4
-    akhir=productFullEmpat+((n*sisaM)//2)+((m*sisaN)//2)
+    akhir=productFullEmpat+((n*sisaM)//2)+((m*sisaN)//2)#l
    
     if (n==1 and m%2!=0) or (m==1 and n%2!=0) or (n%2!=0 and m%2!=0):
         akhir+=1
