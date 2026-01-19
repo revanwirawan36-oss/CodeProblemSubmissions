@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main(){ //c
     long batas;
     long angka=0;
     long lilin[100000];
