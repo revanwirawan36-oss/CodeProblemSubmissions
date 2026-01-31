@@ -2,7 +2,7 @@ select(
 case
     when g.grade<8 then "NULL"
     else s.name
-    end)
+    end) --wait
     as name, g.grade, s.marks
 from grades g 
 cross join students s 
