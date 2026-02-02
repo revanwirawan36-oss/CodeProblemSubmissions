@@ -3,7 +3,7 @@ import math
     jadi ini pake metode pair
     1. cari divisornya, cek bisa dibagi 2 ngga
     2. terus kalo bisa dibagi 2, cek pairnya (N//i), bisa dibagi 2 juga ngga
-    3. klo bisa increment
+    3. kalo bisa, increment
     4. stop di sqrt(N) karna if we go pass that bakal ke repeat + ngelama lamain+ ngedouble
 '''
 def sherlock_and_divisors(N):
