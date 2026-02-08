@@ -4,6 +4,6 @@ def halloween_party(K):
 if __name__=='__main__':
     T=int(input())
     
-    for _ in range(T): #d
+    for _ in range(T): #da
         K=int(input())
         print(halloween_party(K))
