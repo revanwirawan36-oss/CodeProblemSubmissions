@@ -1,7 +1,7 @@
 def compare_lists(llist1, llist2):
     curr1=llist1
     curr2=llist2
-    #so what
+    #so lazy
     
     while(True):
         if curr1.data!=curr2.data:
