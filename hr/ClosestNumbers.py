@@ -1,5 +1,5 @@
 def closestNumbers(arr):
-    mini=10000000
+    mini=100000000
     
     arr.sort()
     for i in range(len(arr)-1):
