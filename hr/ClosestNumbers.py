@@ -1,6 +1,5 @@
 def closestNumbers(arr):
-    mini=100000000
-    #whyshdothat
+    mini=-2**31
     arr.sort()
     for i in range(len(arr)-1):
         if abs(arr[i]-arr[i+1]) < mini:
