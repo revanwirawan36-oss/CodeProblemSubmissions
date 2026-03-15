@@ -1,5 +1,5 @@
 def closestNumbers(arr):
-    mini=-2**31
+    mini=-2**29
     arr.sort()
     for i in range(len(arr)-1):
         if abs(arr[i]-arr[i+1]) < mini:
