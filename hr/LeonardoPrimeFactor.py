@@ -10,7 +10,7 @@ def primeCount(n):
     while num < n:
         if i <= 1:
             num *= firstPrime[i]
-            # print("num:", num, "fac", firstPrime[i]) test
+            # print("num:", num, "fac", firstPrime[i]) 
             i += 1
             brp += 1
             continue
