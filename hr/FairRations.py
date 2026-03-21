@@ -8,7 +8,7 @@ def fairRations(B):
         #print(B)
     for el in B:
         if el%2!=0:
-            return "NO" #krna ganjil
+            return "NO" 
     return kasih
 
 if __name__ == '__main__':
