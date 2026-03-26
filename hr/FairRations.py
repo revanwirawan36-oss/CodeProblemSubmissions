@@ -5,7 +5,7 @@ def fairRations(B):
             B[i+1]+=1
             B[i]+=1
             kasih+=2
-        #print(B) 
+        #print(B) debug
     for el in B:
         if el%2!=0:
             return "NO" 
